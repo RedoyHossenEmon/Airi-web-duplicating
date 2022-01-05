@@ -1,0 +1,186 @@
+@media only screen and (max-width: 768px){
+  .container {
+      width: 97%;
+ }
+  .mainmenu{
+      background: #13151d ;
+ }
+  .menu{
+     display: none;
+ }
+  .manu_span{
+     display: inline-block;
+ }
+  .manu_span {
+      width: 40px;
+      float: right;
+      transition: all .2s;
+      transform: scaleY(.9);
+ }
+  .manu_span span {
+      background: white;
+      width: 100%;
+      height: 3px;
+      display: inherit;
+      margin-top: 8px;
+      transition: all .3s;
+ }
+  .manu_span span:first-child {
+     margin-top: 0px;
+ }
+  .manu_span:hover{
+     cursor: pointer;
+      transform: scaleY(1);
+ }
+  .menu{
+     display: none;
+      width: 100%;
+      z-index: 999;
+      display: none;
+      height: 100%;
+      background: #13151d;
+ }
+  .menu ul {
+      display: unset;
+      text-align: center;
+ }
+  .menu ul li{
+      margin: 50px 0px;
+ }
+ .menu ul li a{
+      color: #f85757;
+ }
+  .closed span:first-child {
+      transform: rotateZ(49deg) translate(10px, 10px);
+ }
+  .closed span:nth-child(2) {
+     display: none;
+ }
+  .closed span:last-child {
+      transform: rotateZ(311deg) translate(-4px, 0px);
+ }
+  .list_blocked{
+     display: inline-block;
+      padding-bottom: 100%;
+      width: 100% ;
+      z-index: 999;
+ }
+  .manu_color{
+     background: #13151d !important;
+     z-index: 999;
+ }
+  .homo_ditals h1 {
+      font-size: 45px;
+      line-height: 55px;
+ }
+  h2.sec_head_title {
+      font-size: 35px;
+      text-align: center;
+ }
+  .helping_icon_box {
+      text-align: center;
+      width: 100%;
+ }
+  #helping_plan .container{
+     width: 100%;
+ }
+  .count_wrapper{
+     display: unset;
+ }
+  .count_number {
+      width:35%;
+ }
+  .count_name {
+     width: 35%;
+      padding: 17px 63px 1px 0px;
+ }
+  .goals_left {
+      padding-bottom: 35px;
+ }
+  .goalWrapper{
+     display: unset;
+ }
+  .goal_title h2.sec_head_title {
+      text-align: left !important;
+ }
+  .goal_video{
+     width: 100%;
+     height: 520px;
+ }
+  #b_global {
+      background-size: 100% 25%;
+ }
+
+.global_title{
+ width: 100%;
+  padding-bottom: 60%;
+  padding-bottom: 45px;
+}
+.global_title h2{
+ text-align: center !important;
+}
+.g_b_box{
+ width: 100%;
+ margin-bottom: 10px;
+}
+.global_box_wrapper{
+ display: unset;
+}
+.testimonial_box_wrapper{
+ display: unset;
+}
+.testimonial_box{
+ margin-bottom: 20px;
+ width: unset;
+}
+.team_box_wrapper{
+ display: unset;
+}
+.team_title{
+ margin-bottom: 20px;
+}
+.team_box{
+ width: unset;
+  margin-bottom: 20px;
+}
+.newes_wrapper{
+ display: unset;
+}
+.foot_wrapper{
+ display: unset;
+}
+.single_foot{
+ margin-bottom: 10px;
+}
+.foot_likeUs_dtl{
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+
+
+
+/* about us page designing ----------------------------------------- */
+
+.who_top{display: unset !important;}
+.who_artecle{width: 100% !important;}
+.who_video .goal_video{margin-left: 0px !important; height: 520px !important;}
+
+.article_wrapper{display: unset !important;}
+.single_article p{width: 100% !important;text-align: center;}
+.single_article h2{text-align: center !important;}
+
+
+
+
+.contact_dtl{width: 100% !important; background-size: cover !important;}
+.contact_form{width: 100% !important;}
+.form_flex input{width:85% !important;}
+.form_flex{display: unset !important;}
+.form_desc{width: 85% !important;}
+a.form_btn { float: left; margin: 0px;}
+
+
+}

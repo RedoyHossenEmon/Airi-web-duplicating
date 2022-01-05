@@ -1,0 +1,16 @@
+.homo_animat{
+  animation-name: fadeInUp ;
+  animation-duration: 1s;
+  animation-iteration-count: inherit;
+  
+}
+
+
+
+
+@keyframes fadeInUp {
+  0%{transform: translateY(300px); opacity: 0;}
+  100%{transform: translateY(0); opacity: 1;}
+}
+
+.manu_span{display: none;}
